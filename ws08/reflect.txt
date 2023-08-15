@@ -1,0 +1,21 @@
+*****************************************************************************
+                               Reflection
+                             Workshop - #8
+Full Name  : akash yadav
+Student ID#: 172566218
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+1. 
+structure Reportdata used in my programs requires a lot of memory because i have 3 int type of variables which means that 3*4=12 bytes after this i have 6 double type of variables 6*8 = 48 bytes . Hence, this structure takes 48+12=60bytes of storage.  the passing of this information to the functions improves the memory management because when we code the definition of any function then it can be called whenever we need that information so it will not contain the unnecessary  space .
+void displayReportData(const struct ReportData Data, const int cheapestProductCheck) {
+
+	printf("%07d %10.2lf %10.1lf %10.4lf %9d %8d %8.1lf %7.2lf %7.5lf", Data.skuNumber, Data.productPrice, Data.productWeightPounds, Data.productWeightKilos, Data.productWeightGrams, Data.calories, Data.servings, Data.costPerServing, Data.costCaloriesPerServing);
+}
+  here, i have to used the structure for every statement to printf it but if i have passed it into the function the  ijust have to call the function and it would have taken the less space too.
+
+2.
+both CatfoodInfo and ReportData structure contain 4 common members . so it is taking more space as they are defined in both the structure seperately . This suitation could have been improved by making a separate function  for the member of structure defined in Catfoodinfo so that we can easily call that function in the REportdata struture which will definitely take less space in memory too.and during the displayReportData function we have to call that function in order to print the the values of those members in that function.  
