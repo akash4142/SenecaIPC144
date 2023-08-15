@@ -1,0 +1,20 @@
+*****************************************************************************
+                              Reflection
+                          Workshop - #3 (P2)
+Full Name  : AKASH YADAV
+Student ID#: 172566218
+Email      : ayadav35@myseneca.ca
+Section    : NII
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+1.well, for me the difficult expression i faced  !((cream4 == 'y') && (cream3 == 'n')). I would say this the not that much difficult but i made mistake while running the code . This is to match that cream4 is equal to y and again i am checking that the cream3 is n or not in this case i applied was getting '1' or true value but i need 0 as output so i used the not operator .
+
+2.coffeestr == 'm' && type1 == 'l'
+This is the same as !(coffeestr=='m'||type1=='l') 
+and coffeestr!='m'|| type1='l'
+
+3. In part 1 ,we declare the variable to store the calculated average product prices because we want to print it and once we store someting in coding then we can use tht thing in code but in part 2 we didn't store because we just need the result to be printed we don't want to use that variable in the later code.
