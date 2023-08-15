@@ -1,0 +1,73 @@
+*****************************************************************************
+                               Reflection
+                             Workshop - #4
+Full Name  : AKASH YADAV
+Student ID#: 172566218
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+
+1. SELECTION IS THAT MUCH IMPORTANT IN OUR CODE AS MUCH AS IT IS IMPORTANT IN ONE'S LIFE. WITHOUT THE SELECTION WE CANNOT PUT CONDITIONS IN OUR CODE. IN MY CODE (PART2) I GUESS WHOLE CONCEPT IS BASED ON THE SELECTION . I USED IT MANY TIMES:
+ i) FIRST OF ALL ,I USED SELECTION TO CHECK THE NUMBERS OF APPLES.   
+ if (numapples < 0)
+        {
+            printf("ERROR: Value must be 0 or more.\n");
+        }
+ ii) SECONDLY, I USED TO CHECK THAT IS NUMBERS OF APPLES PICKED IS GREATER THAN THE NUMBER OF APPLES.
+ if (pickapples > numapples)
+        {
+
+            printf("You picked too many... only %d more APPLE(S) are needed.\n", numapples);
+        }
+ iii) IN THIS CASE , I USED IT AS TO CHECK WHETHER THE NUM OF TOMATOES ARE GREATER OR EQUAL TO 0 OR NOT 
+  if (numtomatoes >= 0)
+        {
+            printf("\n");
+        }       
+
+
+2.NESTED CONSTRUCT IS THE STRUCTURE IN WHICH A CONDITION IS INSIDE THE OTHER CONDITION . I USED THIS STRUCTURE IN  MY CODE A LOT BECAUSE I HAVE TO USE MANY CONDITIONS.
+HERE ARE THE EXAMPLE :-
+ i)else if (pickapples > 0)
+        {
+            numapples -= pickapples;
+            if (numapples == 0)
+            {
+                printf("Great, that's the apples done!\n\n");
+            }
+            else
+            {
+                printf("Looks like we still need some APPLES...\n");
+            }
+        }
+EXPLAINATION :- I USED A CONDITION IN MY CODE THAT IS IF PICKAPPLES IS GREATER THAN THE 0 THEN I AM ABLE TO ENTER INSIDE THIS CONDITION. ONCE I ENTER INTO IT . THEN MY EQUATION WILL BE EXCEUTED . AFTER THE EQUATION I AGAIN USED THE CONDITION THAT IA IF NUMAPPLES IS EQUAL TO 0 THEN ONLY PRINTF WILLL TAKE PART BUT IF IT IS NOT EQUAL TO 0 THEN BY DEFAULT IT WILL EXECUTE THE ELSE CONDITION.
+ ii) else if (picktomatoes > 0)
+            {
+                numtomatoes -= picktomatoes;
+                if (numtomatoes == 0)
+                {
+                    printf("Great, that's the tomatoes done!\n\n");
+                }
+                else
+                {
+                    printf("Looks like we still need some TOMATOES...\n");
+                }
+            }
+EXPLAINATION :- AGAIN , I USED THE CONDITION THAT IF PICKTOMATOES IS MORE THAN 0 THEN , I AM ABLE TO ENTER INSIDE THIS CONDITION AND THEN AGAIN IT WILL EXECUTE THE EQUATION . AFTER IT WILL CHECK NUMTOMATOES IS EQUAL TO 0 OR NOT IF YES THEN IT WILL EXECUTE THE PRINTF STATEMENT AND IF NOT THEN BY DEFAULT IT WILL GO TO ELSE CONDITION .
+
+3.MY FAVOURITE ITERATION IS DO- WHILE LOOP . IT IS MY FAVOURITE BECAUSE IN THIS LOOP CONDITION IS NOT CHECKED FIRST . IT FIRST  EXECUTE  WITHOUT THE CONDITION AND AFTER THE WHOLE EXECUTION IS  COMPLETE THEN ONLY IT CHECKS THE CONDITION WHEREAS IN OTHER LOOPS(FOR LOOP AND WHILE ) . IT CHECK THE CONDITION FIRST AND IF THE CONDITION IS TRUE THEN ONLY THEY ARE EXECUTED.  
+ 
+do
+        {
+            printf("\nHow many CABBAGES do you need? : ");
+            scanf("%d", &numcabbages);
+            if (numcabbages < 0)
+            {
+                printf("ERROR: Value must be 0 or more.\n");
+            }
+        } while (numcabbages < 0);
+HERE, IN THIS SITUATION I USED THE DO - WHILE LOOP BECAUSE IT ALLOWS TO RUL THEDE FOR FIRST TIME WITHOUT CHECKING THE CONDITION AND THEN CHECK THE CONDITION. SO THAT'SWHY I USED THIS LOOP IN MY CODE .
+I HAVE SEEN PEOPLE USING THE FOR LOOP USUALLY BUT IN THAT LOOP WE NEED A EXTRA VARIABLE  IN THE FORM OF COUNTER WHICH TAKES EXTRA BITS OR SPACE IN MY MEMORY WHICH I DON'T LIKE ABOUT THAT LOOP. 
