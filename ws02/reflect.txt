@@ -1,0 +1,52 @@
+*****************************************************************************
+                              Reflection
+                          Workshop - #2 (P2)
+Full Name  : akash yadav
+Student ID#: 172566218
+Email      : ayadav35@myseneca.ca
+Section    : NII
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+
+1. IN MY POINT OF VIEW , IF A FLOATING POINT DATA TYPE IS CHANGED INTO THE INTEGER DATA TYPE THEN IT CAUSES SOME DATA LOSS . IT IS DUE TO THE FACT THAT WHEN I CONVERTED IT INTO THE INTEGER THE DIGITS AFTER THE DECIMAL GOT VANSHIED AND THE USED MEMORY IS LESS. OTHER REASON COULD BE THE THAT FLOATING POINT CONATINS NUMBER WITH 2 POWER RAISED TO 64 BUT THIS 10.12 IS NOT THAT NUMBER . SO THAT IS ANOTHER FACTOR TOO.
+
+2. 
+#include <stdio.h>
+int main(){
+int money;
+total=subtotal_Sum;
+money=total/20;
+total=total%20;
+balance=(double)total;
+printf("Twenties paper 	bills %d %lf \n",money,balance);
+return 0;
+}
+
+3.method 1: 
+ total=subtotal_sum*100;
+loonies=total/100;
+balance=total%100;
+balance=(double)balance/100;
+printf("Loonies %d %lf",loonies,balance);
+ 
+
+method 2:
+double balance;
+total=subtotal*100;
+loonies=total/100;
+total=total%100;
+balance=total;
+printf("%d",total);
+printf("Loonies %d %lf",loonies,balance);
+
+method 3:
+char local='a';//a=68
+total=subtotal_sum*100;
+loonies=total/100;
+balance=total%100;
+printf("Loonies %d %lf ",loonies,balance/a);
+
