@@ -1,0 +1,31 @@
+*****************************************************************************
+                               Reflection
+                             Workshop - #7
+Full Name  : AKASH YADAV
+Student ID#: 172566218
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+
+1. In this workshop , i have used the 2 structures . there are number of benefits of using this in my workshop . here i have described how it helped me this workshop -:
+ i) first of all , it allowed me to store the different kinds of data in the well - defined  manner in different data types.
+ ii) struct playerinfo {
+        int num_lives;
+        char symbol;
+        int counter;
+        int num_treasure;
+        int max_path[MIN_RANGE];
+    }player;
+this is the structure , i used in my program. In this , i have 5 different types of the variable including an array named max_path. this helped me to store the different kinds of data types in this i have 3 integer type of data types and 1 char type and an array of type integer.
+ iii)this also helped me to reduce the complexity of my code. i can easily write my code.
+
+2. To keep the history of games , i have two different kind of logics:
+ i) i can declare an new array in the the structure in which i can keep the record of all the game i have won or i have lost . and at the end of the all the logic i can run a loop to print all the result in this array.
+ ii) another way to do this is to make the array and store all the result in that and print the result of the all the array at the end of the loop and can make it to work.
+ 
+3. i spend most of the time to solve the problem that how can i solve the logic to check the number whether it was repeated before or not .i have made an array to keep all the record and i forget to intitalise it to 0 . every time i ran my code i was getting the garbage value but when i tried to debug it line by line then i got the answer and i initalise it to 0 and in this logic i tried to keep all the record of all previous numbers entered by the user and  match those numbers to the array number and this manners i debug it.
+
+THANKYOU
