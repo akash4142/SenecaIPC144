@@ -1,0 +1,49 @@
+*****************************************************************************
+                               Reflection
+                             Workshop - #5
+Full Name  : AKASH YADAV
+Student ID#: 172566218
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+
+1. THERE ARE TWO WAYS IN WHICH POSSIBLE SELECTION CONTRUCTS:
+ i) BY USING THE SWITCH CASE 
+     THIS CAN BE USED IN FOLLOWING WAY:
+      int months;
+      printf("enter the months :: ");
+      scanf("%d",&months);
+      switch (months){
+      case 11: {
+            printf("NOV");
+            break;
+       } 
+      case 12:{
+            printf("DEC");
+            break;
+       }
+       }
+ ii) BY USING THE IF ELSE STATEMENT
+   int months ;
+   printf("enter the months :: ");
+   scanf("%d",&months);
+   if(months ==11) {
+          printf("NOV");
+     }
+    else if(months ==12 ) { 
+          printf("DEC");
+     }
+
+
+2.  THERE ARE THREE TYPES OF THE ITERATION :-
+  i) DO WHILE 
+  ii) WHILE
+  iii) FOR
+  for my daily or routines programs i mostly use the do while loop . i use this loop beacuse of many reasons . first is that  this loop atleast runs for one time it checks the condition after it is done with the execution for the first time . In the "for" loop i need a counter in order to maintain the loop which takes the extra space in the memory which i don't want.
+
+3.FOR THE SYNTACTIC - I use the visual studio code which helps me out with this syntax error . Any error in the syntax can be solved withthe help of visual studio code. For example if i forget to put the semicolons in the line number 8 then it will show me that i have made a mistake in line 8 .  
+
+FOR THE SEMANTIC - whenever i get the code . i try to  decompose that code into the smaller logic which makes easier for me to execute my code or  logic perfectly . That means i break the whole logic into the smaller parts and start coding and everytime i type a small logic . I immediately execute it and if i got any bug in the code .I recheck it . once i am done wiht the smaller parts i just need to put it all together and execute it all as once . I am done with the code.

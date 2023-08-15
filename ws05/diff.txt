@@ -1,0 +1,14 @@
+In line number 53 of your output:
+The output should be:
+
+^
+But your output is: 
+Script done on Thu 06 Oct 2022 02:33:55 AM EDT
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [Empty Line] ASCII code(0)
+but you printed
+  [S] ASCII code(83)
+
