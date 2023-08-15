@@ -1,0 +1,35 @@
+*****************************************************************************
+                               Reflection
+                             Workshop - #6
+Full Name  : akash yadav
+Student ID#: 172566218
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+
+1. I used the parallel arrays in my code for 3 arrays . I used it to  . First of i made an array in order to store the cost of the each items and i have put the limit of the array to the max limit which is 10. second array is used to store the finance options as set the limit of it to the max as well. another array is used to store the value the priority. all of these the arrays are relative to each other . 
+
+2. In my point of view , it is common practice to iterate araays initalizing the iterator cariable to zero not to one because by default the first item in array is index to 0. That'swhy when we initialize the array it begins with the 0 not by 1. 
+
+MAX_ITEMS=10;
+float cost[MAX_ITEMS];
+(here in this i have declare an array called cost which can store the max value upto 10.)
+
+    do {
+        if (count1 == 0) {
+            printf("\nItem-%d Details:\n", count);
+            printf("   Item cost: $");
+            scanf("%lf", &cost[index]);
+        }
+        else {
+            printf("   Item cost: $");
+            scanf("%lf", &cost[index]);
+        }while(flag==0);
+here,i used a loop in order to initailize the value inside the array and then one by one it is initiailising the value to arrays. 
+
+
+3.array is something like a container in which we can put a same type of data for example : you have a water container in that container you can only store the water because have describe it as the water container and you cannot store other type of things such as wood or oil into it. so it is the seprate container which is used to store same type of data.
+  now let's access the values of the array. so there are address located in the memory of computer so by default when we put values in the array it starts with 0. so , suppose if i have to access the 6th value of the array named temp[]. then i have to just put temp[5]. question might arise in child's mind why we put 5 to get access to 6th value? so it is because i told that indexing always starts with the 0 . so 6th value will be indexed with 5. 
